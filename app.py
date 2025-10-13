@@ -104,14 +104,19 @@ import streamlit as st
 
 
 
-# عرض العنوان الرئيسي
-st.markdown(
-    "<h1 style='text-align: center; font-size: 50px; color: #39FF14;'>تحليل كرة القدم السعودية</h1>",
-    unsafe_allow_html=True
-)
+from PIL import Image
+image = Image.open('assets/saudi-football-analysis-image.jpeg') 
 
+col1, col2, col3 = st.columns([3, 6, 3])
 
+with col1:
+    st.write(' ')
 
+with col2:
+    st.image(image, use_container_width=True)
+
+with col3:
+    st.write(' ')
 
 # عرض الصورة في الوسط
 #st.markdown(
@@ -6604,6 +6609,7 @@ elif analysis_type == "تحليل لاعب":
                 st.caption("القيم تُطبّع حسب اختيارك. اختر «على مستوى لاعبي الفريقين» لتطبيع كل مقياس مقارنةً بأعلى قيمة بين جميع لاعبي الفريقين في المباراة.")
             except Exception as e:
                 st.error(f"حدث خطأ أثناء رسم الرادار: {e}")
+
 
 
 
