@@ -105,7 +105,7 @@ import streamlit as st
 
 
 from PIL import Image
-image = Image.open('assets/ChatGPT Image 16 أكتوبر 2025، 12_28_37 ص.png')#تغير الصورة 
+image = Image.open('assets/دوري 22.jpg')#تغير الصورة 
 
 col1, col2, col3 = st.columns([5, 10, 5])#تكبير الصورة
 
@@ -6610,6 +6610,7 @@ elif analysis_type == "تحليل لاعب":
                 st.caption("القيم تُطبّع حسب اختيارك. اختر «على مستوى لاعبي الفريقين» لتطبيع كل مقياس مقارنةً بأعلى قيمة بين جميع لاعبي الفريقين في المباراة.")
             except Exception as e:
                 st.error(f"حدث خطأ أثناء رسم الرادار: {e}")
+
 
 
 
