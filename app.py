@@ -106,7 +106,7 @@ import streamlit as st
 
 # عرض العنوان الرئيسي
 st.markdown(
-    "<h1 style='text-align: center; font-size: 50px; color: #39FF14;'>تحليل كرة القدم السعودية</h1>",
+    "assets/ChatGPT Image 14 أكتوبر 2025، 09_47_04 ص.png",
     unsafe_allow_html=True
 )
 
@@ -6604,6 +6604,7 @@ elif analysis_type == "تحليل لاعب":
                 st.caption("القيم تُطبّع حسب اختيارك. اختر «على مستوى لاعبي الفريقين» لتطبيع كل مقياس مقارنةً بأعلى قيمة بين جميع لاعبي الفريقين في المباراة.")
             except Exception as e:
                 st.error(f"حدث خطأ أثناء رسم الرادار: {e}")
+
 
 
 
