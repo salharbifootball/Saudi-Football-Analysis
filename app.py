@@ -59,7 +59,7 @@ import base64
 import streamlit as st
 
 # مسار الصورة المحلي
-#local_image_path = r"assets/دوري 22.jpg"
+#local_image_path = r"assets/ChatGPT Image 14 أكتوبر 2025، 09_47_04 ص.png"#تغير الصورة 
 
 # تحويل الصورة المحلية إلى Base64
 #with open(local_image_path, "rb") as img_file:
@@ -6569,6 +6569,7 @@ elif analysis_type == "تحليل لاعب":
                 st.caption("القيم تُطبّع حسب اختيارك. اختر «على مستوى لاعبي الفريقين» لتطبيع كل مقياس مقارنةً بأعلى قيمة بين جميع لاعبي الفريقين في المباراة.")
             except Exception as e:
                 st.error(f"حدث خطأ أثناء رسم الرادار: {e}")
+
 
 
 
